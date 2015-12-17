@@ -81,7 +81,7 @@ header {
 		display: none;
 	}
 	#me p {
-	    font-size: 1em;
+	    font-size: 1.5em;
 	}
 	#ul1 {
 		margin-left: 23vw;
@@ -90,6 +90,9 @@ header {
 @media screen and(max-width:900px) {
 	#ul1 {
 	    margin: o auto;
+	}
+	#me p {
+		font-size: .5em;
 	}
 }
 @media screen and(max-width:600px) {

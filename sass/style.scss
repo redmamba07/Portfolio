@@ -24,11 +24,12 @@ header {
     padding-top: 2em;
 }
 #ul1 {
-	display: inline-flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 12vw;
+	margin: 0 auto;
+	margin-left: 3em;
 }
 #ul1 img {
 	margin: 0 1em;
@@ -84,7 +85,7 @@ header {
 	    font-size: 1.5em;
 	}
 	#ul1 {
-		margin-left: 23vw;
+		margin-left: 5vw;
 	}
 }
 @media screen and(max-width:900px) {
@@ -92,12 +93,13 @@ header {
 	    margin: o auto;
 	}
 	#me p {
-		font-size: .5em;
+		font-size: 1.25em;
 	}
 }
 @media screen and(max-width:600px) {
-	#ul1 #a1, #a2, #a5, #a6 {
+	#ul1 #a2, #a5, #a6 {
 		display: none;
+		font-size: 1em;
 	}
 	#me p {
 	    font-size: .5em;

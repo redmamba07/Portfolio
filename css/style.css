@@ -2607,9 +2607,9 @@ header {
 }
 
 #ul1 {
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
@@ -2619,7 +2619,8 @@ header {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 12vw;
+  margin: 0 auto;
+  margin-left: 3em;
 }
 
 #ul1 img {
@@ -2703,7 +2704,7 @@ header {
   }
 
   #ul1 {
-    margin-left: 23vw;
+    margin-left: 5vw;
   }
 }
 @media screen and (max-width: 900px) {
@@ -2712,12 +2713,13 @@ header {
   }
 
   #me p {
-    font-size: .5em;
+    font-size: 1.25em;
   }
 }
 @media screen and (max-width: 600px) {
-  #ul1 #a1, #a2, #a5, #a6 {
+  #ul1 #a2, #a5, #a6 {
     display: none;
+    font-size: 1em;
   }
 
   #me p {
